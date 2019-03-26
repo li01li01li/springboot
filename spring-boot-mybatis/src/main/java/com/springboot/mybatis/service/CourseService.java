@@ -5,6 +5,7 @@ import com.springboot.mybatis.entity.Course;
 import java.util.List;
 
 public interface CourseService {
+
     List<Course> selectAll();
 
     Course getOne(long courseId);
@@ -14,4 +15,5 @@ public interface CourseService {
     void insert(Course course);
 
     void update(Course course);
+
 }

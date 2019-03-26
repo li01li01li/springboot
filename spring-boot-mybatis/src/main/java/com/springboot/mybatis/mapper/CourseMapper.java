@@ -7,7 +7,6 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 public interface CourseMapper {
-
     @Results({
             @Result(property = "courseId", column = "course_id"),
             @Result(property = "courseName", column = "course_name"),
